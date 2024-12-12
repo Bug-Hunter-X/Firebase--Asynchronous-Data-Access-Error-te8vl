@@ -1,0 +1,1 @@
+The Firebase SDK might throw an error if you try to access a property of a document snapshot before the data has fully loaded. This can happen if you use asynchronous functions without proper error handling. For example, if you try to access the data within a promise's then block before the promise resolves, your code will throw an error.
